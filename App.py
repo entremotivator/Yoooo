@@ -13,7 +13,7 @@ st.title("📡 Webhook Sender + Google Sheets Live Dashboard")
 # SIDEBAR - Webhook Sender
 # ------------------------------
 st.sidebar.header("Send Webhook Message")
-webhook_url = "https://agentonline-u29564.vm.elestio.app/webhook-test/Imagetovideo"
+webhook_url = "https://agentonline-u29564.vm.elestio.app/webhook-test/c66c041c-ef00-48a8-b2f7-50fa1c0d458a"
 
 with st.sidebar.form("webhook_form"):
     message = st.text_area("Message", placeholder="Enter your message to send")
